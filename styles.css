@@ -98,6 +98,28 @@ body {
   border-radius: 10px;
 }
 
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.zero:hover {
+  border: 3px solid rgb(130, 37, 37);
+  flex: 1;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 72, 72);
+  font-size: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .plus,
 .minus,
 .divide,
@@ -111,6 +133,24 @@ body {
   align-items: center;
   color: rgb(255, 70, 70);
   border-radius: 10px;
+  font-size: 40px;
+}
+
+.plus,
+.minus,
+.divide,
+.multiply,
+.equals,
+.clear:hover {
+  border: 3px solid rgb(130, 37, 37);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 70, 70);
+  border-radius: 10px;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 .display {
