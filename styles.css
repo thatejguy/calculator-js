@@ -6,6 +6,7 @@
 html,
 body {
   height: 100%;
+  background-color: rgb(25, 7, 7);
 }
 
 body {
@@ -15,29 +16,109 @@ body {
 }
 
 .calculator-container {
-  border: 2px solid red;
+  border: 2px solid rgb(14, 4, 4);
   width: 500px;
   height: 500px;
   display: flex;
+  background-color: rgb(72, 20, 20);
+  border-radius: 20px;
 }
 
 .cal-borders {
-  border: 2px solid red;
   flex: 1;
   margin: 8px;
   display: flex;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .thiscontainer {
-  border: 2px solid cyan;
+  display: flex;
+  height: 350px;
+}
+
+.anothercontainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .buttonscontainer {
-  border: 2px solid green;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  min-width: 370px;
 }
 
 .operatorscontainer {
-  border: 2px solid magenta;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 60px;
+}
+
+.displaycontainer {
+  border: 3px solid rgb(130, 37, 37);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+.othercontainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 60px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.zero {
+  border: 3px solid rgb(130, 37, 37);
+  flex: 1;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 72, 72);
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+.plus,
+.minus,
+.divide,
+.multiply,
+.equals,
+.clear {
+  border: 3px solid rgb(130, 37, 37);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 70, 70);
+  border-radius: 10px;
+}
+
+.display {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
 }
 
 
