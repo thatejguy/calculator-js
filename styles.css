@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-container {
+  border: 2px solid red;
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+
+.cal-borders {
+  border: 2px solid red;
+  flex: 1;
+  margin: 8px;
+  display: flex;
+}
+
+.thiscontainer {
+  border: 2px solid cyan;
+}
+
+.buttonscontainer {
+  border: 2px solid green;
+}
+
+.operatorscontainer {
+  border: 2px solid magenta;
+}
+
+
+
