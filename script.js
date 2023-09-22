@@ -35,7 +35,8 @@ const buttons = {
   },
 }
 
-buttons.two()
+buttons.one();
+buttons.two();
 
 
 
