@@ -18,25 +18,23 @@ const logic = {
 }
 
 //buttons
-const buttons = {
-  one() {
-    let one = document.querySelector('.one');
-    one.addEventListener('click', () => {
-      console.log('one');
-      display.textContent += '1';
-    })
-  },
-  two() {
-    let two = document.querySelector('.two');
-    two.addEventListener('click', () => {
-      console.log('two');
-      display.textContent += '2';
-    })
-  },
-}
+let buttons = document.querySelectorAll('.button');
+buttons.forEach(function(button) {
+  button.addEventListener('click', () => {
+    if (button.textContent === '1') {
+      console.log('Button One');
+      return display.textContent += '1';
+    } else if (button.textContent === '2') {
+      console.log('Button Two');
+      return display.textContent += '2';
+    } else if (button.textContent === '3') {
+      console.log('Button Three');
+      return display.textContent += '3';
+    }
+  })
+})
 
-buttons.one();
-buttons.two();
+
 
 
 
