@@ -50,6 +50,12 @@ buttons.forEach(function(button) {
     } else if (button.textContent === '8') {
       console.log('Button Eight');
       return display.textContent += '8';
+    } else if (button.textContent === '9') {
+      console.log('Button Nine');
+      return display.textContent += '9';
+    } else if (button.textContent === '0') {
+      console.log('Button Zero');
+      return display.textContent += '0';
     }
   })
 })
