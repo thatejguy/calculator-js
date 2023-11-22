@@ -6,7 +6,7 @@
 html,
 body {
   height: 100%;
-  background-color: rgb(25, 7, 7);
+  background-color: rgb(2, 2, 31);
 }
 
 body {
@@ -17,11 +17,11 @@ body {
 }
 
 .calculator-container {
-  border: 2px solid rgb(14, 4, 4);
+  border: 5px solid rgb(19, 109, 220);
   width: 500px;
   height: 500px;
   display: flex;
-  background-color: rgb(72, 20, 20);
+  background-color: rgb(19, 19, 220);
   border-radius: 20px;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .displaycontainer {
-  border: 3px solid rgb(130, 37, 37);
+  border: 3px solid rgb(0, 115, 255);
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -87,7 +87,7 @@ body {
 }
 
 .button {
-  border: 3px solid rgb(130, 37, 37);
+  border: 3px solid rgb(19, 109, 220);
   flex: 1;
   min-width: 100px;
   display: flex;
@@ -117,7 +117,7 @@ body {
 .multiply,
 .equals,
 .clear {
-  border: 3px solid rgb(130, 37, 37);
+  border: 3px solid rgb(19, 109, 220);
   flex: 1;
   display: flex;
   justify-content: center;
@@ -133,7 +133,7 @@ body {
 .multiply,
 .equals,
 .clear:hover {
-  border: 3px solid rgb(130, 37, 37);
+  border: 3px solid rgb(19, 109, 220);
   flex: 1;
   display: flex;
   justify-content: center;
