@@ -32,10 +32,10 @@ function operate(firstNumber, secondNumber) {
 
 
 let display = document.querySelector('.display');
-let plus = document.querySelector('.plus');
-let minus = document.querySelector('.minus');
-let divide = document.querySelector('.divide');
-let multiply = document.querySelector('.multiply');
+let plusing = document.querySelector('.plus');
+let minusing = document.querySelector('.minus');
+let divideing = document.querySelector('.divide');
+let multiplying = document.querySelector('.multiply');
 let clear = document.querySelector('.clear');
 
 
