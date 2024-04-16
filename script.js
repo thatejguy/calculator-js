@@ -26,11 +26,6 @@ let operator;
 let displayValue;
 
 
-function operate(firstNumber, secondNumber) {
-
-}
-
-
 let display = document.querySelector('.display');
 let plusing = document.querySelector('.plus');
 let minusing = document.querySelector('.minus');
